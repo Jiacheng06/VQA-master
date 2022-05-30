@@ -19,7 +19,7 @@ path_new = '../change/contactMap_new/'   # 新的存储位置
 path_NMI = '../change/PDB_NMI/'    # 先把原文提供的pdb下载下来
 
 pdb_list_train = list(os.listdir(path))
-pdb_list_test = ['aa2ar_4l8gA_full']  #ABCDEF
+pdb_list_test = ['aa2ar_4ldjA_full']  #ABCDEF
 pdb_list_train.extend(pdb_list_test)
 pdb_list = pdb_list_train
 

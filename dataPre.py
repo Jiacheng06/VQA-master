@@ -55,7 +55,7 @@ DECOY_PATH = './data/DUDE/decoy_smile'
 ACTIVE_PATH = './data/DUDE/active_smile'
 print('get protein-seq dict....')
 # dataDict = getDataDict(testProteinList, ACTIVE_PATH, DECOY_PATH, contactPath)
-testProteinList = ['4l8g']  # protein of fold3Test
+testProteinList = ['4ldj']  # protein of fold3Test
 dataDict = {item: pd.read_csv('./change/bindingDB_ic50.csv').to_numpy().tolist() for item in testProteinList}  # TODO 测试集数据
 
 N_CHARS_SMI = len(smiles_letters)
